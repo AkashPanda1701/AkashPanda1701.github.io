@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Nordstrom",
+        "desc": "Nordstrom is a US based E-commerce company, it  is a leading fashion retailer offering compelling clothing, shoes and accessories for men, women and kids. Nordstrom is a one-stop shop for the whole family, and a fashion source for the modern world.",
+        "img": "https://i.ibb.co/hFjsRVB/image.png",
+        "git": "https://github.com/AkashPanda1701/shaky-arithmetic-3871",
+        "deploy": "https://nordstrome.netlify.app",
+        "techStack":[
+            {
+                "name": "React",
+                "img": "https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
+            },
+            {
+                "name": "NodeJs",
+                "img": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+            },
+            {
+                "name": "JavaScript",
+                "img":  "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            
+            },
+            {
+                "name": "Chakra UI",
+                "img":  "https://camo.githubusercontent.com/eec63163a5209f78e8b0e3d6ab82eb981d03c4453a7a466f4fdc063da09f2a4d/68747470733a2f2f692e696d6775722e636f6d2f454d796b5a62332e706e67"
+            },
+            {
+                "name": "Heroku",
+                "img":  "https://cledara-public.s3.eu-west-2.amazonaws.com/heroku.png"
+            }
+            
+        ]
+    },
+    {
+        "name": "Harvest",
+        "desc": "Harvest’s easy, clean time tracking allows us to focus on the tough engineering problems where they bring value to their clients. Harvest is a time tracking and invoicing software that helps you track your time and bill your clients. ",
+        "img": "https://i.ibb.co/KzRsHGw/image.png",
+        "git": "https://github.com/AkashPanda1701/vigorous-ticket-1895",
+        "deploy": "https://harvestcloned.netlify.app",
+        "techStack":[
+            {
+                "name": "HTML",
+                "img": "https://cdn-icons-png.flaticon.com/512/1532/1532556.png"
+            },
+            {
+                "name": "CSS",
+                "img": "https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
+            },
+            {
+                "name": "JavaScript",
+                "img":  "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            
+            },
+            {
+                "name": "NodeJs",
+                "img": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+            }
+            
+        ]
+    },
+    {
+        "name": "Buffer",
+        "desc": "Buffer is a social media management platform designed to help users schedule posts, analyze performance, and engage with audiences across multiple networks from a single dashboard.",
+        "img": "https://i.ibb.co/yYDTPHW/image.png",
+        "git": "https://github.com/AkashPanda1701/mute-arch-12",
+        "deploy": "https://buffercloned.netlify.app",
+        "techStack":[
+            {
+                "name": "HTML",
+                "img": "https://cdn-icons-png.flaticon.com/512/1532/1532556.png"
+            },
+            {
+                "name": "NodeJs",
+                "img": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+            },
+            {
+                "name": "CSS",
+                "img": "https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
+            },
+            {
+                "name": "JavaScript",
+                "img":  "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            
+            }
+            
+        ]
+    }
+]
