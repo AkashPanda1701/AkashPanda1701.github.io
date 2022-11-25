@@ -15,6 +15,7 @@ function Menus() {
       onMouseLeave={onClose}
       bg='rgb(243, 14, 79)'
       p={2}
+      mr={4}
     >
      <Img w={6} src='https://www.clipartmax.com/png/full/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png'/> 
     </MenuButton>
