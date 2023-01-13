@@ -41,7 +41,7 @@ function Home() {
       <Text fontWeight={500} fontSize={{base:'30px',md:'35px',lg:'40px'}} >Hi , I'm <span style={{color:'rgb(243, 14, 79)'}}>Akash Kumar Panda </span></Text>
       <Text fontWeight={500} fontSize={{base:'25px',md:'35px',lg:'40px'}} >a <span style={{color:'rgb(243, 14, 79)'}} id='typer'></span></Text>
       <Text fontSize={20}>From Siliguri,West Bengal.</Text>
-      <Text fontSize={18}>Passionate about implementing new ideas in reality.I'm working on my skills and learning new technologies.Strong creative and analytical skills. Team player with an eye for detail. </Text>
+      <Text fontSize={18}>Passionate about implementing new ideas in reality.Working on learning new skills and learning new technologies.Strong creative and analytical skills. Team player with an eye for detail. </Text>
       <a href='./Akash_Panda_Resume.pdf' download  >
       <Flex w={'200px'}gap={2} my='4'p={2} borderRadius={'2xl'} fontSize='20px' alignItems='center' justifyContent={'center'} className='downloadbtn' 
       

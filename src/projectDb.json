@@ -31,28 +31,67 @@
         ]
     },
     {
-        "name": "Harvest",
-        "desc": "Harvest’s easy, clean time tracking allows us to focus on the tough engineering problems where they bring value to their clients. Harvest is a time tracking and invoicing software that helps you track your time and bill your clients. ",
-        "img": "https://i.ibb.co/KzRsHGw/image.png",
-        "git": "https://github.com/AkashPanda1701/vigorous-ticket-1895",
-        "deploy": "https://harvestcloned.netlify.app",
+        "name": "Edutalks",
+        "desc": "Edutalks is our hackathon project .It is a online website where user can access different course and enroll and get a progress report as well.",
+        "img": "https://i.ibb.co/T8GPXhQ/image.png",
+        "git": "https://github.com/AkashPanda1701/Edutalks",
+        "deploy": "https://edutalks.netlify.app/",
         "techStack":[
             {
-                "name": "HTML",
-                "img": "https://cdn-icons-png.flaticon.com/512/1532/1532556.png"
+                "name": "NextJs",
+                "img": "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-11yvtwzn.png"
             },
             {
-                "name": "CSS",
-                "img": "https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
+                "name": "ExpressJs",
+                "img": "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
             },
             {
-                "name": "JavaScript",
-                "img":  "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                "name": "MongoDB",
+                "img":  "https://cdn.iconscout.com/icon/free/png-512/mongodb-5-1175140.png"
             
             },
             {
                 "name": "NodeJs",
                 "img": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+            },
+            {
+                "name": "Socket.io",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8DK8BCMZSI9q9UF2ex-JuKt3fsA-2AKrWN_65pNHRLgC1FnvT63in2BxGlKGIppd-uzA&usqp=CAU"
+            },
+            {
+                "name": "Chakra UI",
+                "img":  "https://camo.githubusercontent.com/eec63163a5209f78e8b0e3d6ab82eb981d03c4453a7a466f4fdc063da09f2a4d/68747470733a2f2f692e696d6775722e636f6d2f454d796b5a62332e706e67"
+            }
+            
+        ]
+    },
+    {
+        "name": "Shopaholic",
+        "desc": "Shopaholic is an ecommerce website which deals in variety of beauty and care products for women.This is a collaborative project of team of 5 members and a duration of 5 days.Shopaholic is a leading fashion retailer offering compelling makeup and accessories for women.",
+        "img": "https://i.ibb.co/K2pj93F/image.png",
+        "git": "https://github.com/AkashPanda1701/pink-pot-9002",
+        "deploy": "https://shoppaholic.netlify.app/",
+        "techStack":[
+            {
+                "name": "React",
+                "img": "https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png"
+            },
+            {
+                "name": "ExpressJs",
+                "img": "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+            },
+            {
+                "name": "MongoDB",
+                "img":  "https://cdn.iconscout.com/icon/free/png-512/mongodb-5-1175140.png"
+            
+            },
+            {
+                "name": "NodeJs",
+                "img": "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
+            },
+            {
+                "name": "Chakra UI",
+                "img":  "https://camo.githubusercontent.com/eec63163a5209f78e8b0e3d6ab82eb981d03c4453a7a466f4fdc063da09f2a4d/68747470733a2f2f692e696d6775722e636f6d2f454d796b5a62332e706e67"
             }
             
         ]

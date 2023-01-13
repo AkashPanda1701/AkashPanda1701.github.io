@@ -56,7 +56,7 @@ function Navbar() {
         >
         <button className='btn'>Skills</button>
         </Link>
-        <a target={'blank'} href='https://drive.google.com/file/d/1svwblJ9f1hSKShmKqshlqhOVxY2eLAoF/view?usp=sharing'>
+        <a target={'blank'} href='https://drive.google.com/file/d/1Jpw6yerohcfynEsow_qQN21uE6-VSP4o/view?usp=sharing'>
 
         <button className='btn'>Resume</button>
         </a>
