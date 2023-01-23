@@ -2,6 +2,8 @@ import {   Flex,   Img,   Spacer } from '@chakra-ui/react'
 import React from 'react'
 import Menus from './Menus'
 import {Link} from 'react-scroll'
+import { motion } from "framer-motion";
+
 
 function Navbar() {
   
@@ -15,12 +17,34 @@ function Navbar() {
             duration={500}
             
             >
+                <motion.div
+      className="box"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01]
+      }}
+    >
         <Img w='200px'  cursor={'pointer'} my={-3} src='https://i.ibb.co/85Q5zDd/my-logo.png' />
+    </motion.div>
         </Link>
             <Spacer/>
-        <Flex gap={{base:5,md:5,lg:10}} wrap='wrap' justifyContent={'flex-end'}  display={{base:'none',md:'inherit'}}>
+        <Flex
+         initial={{ opacity: 0, scale: 0.5 }}
+         animate={{ opacity: 1, scale: 1 }}
+         transition={{
+           duration: 1,
+           delay: 1,
+           ease: [0, 0.71, 0.2, 1.01]
+         }}
+         as={motion.div}
+        gap={{base:5,md:5,lg:10}} wrap='wrap' justifyContent={'flex-end'}  display={{base:'none',md:'inherit'}}>
        
-            <Flex gap={{base:5,md:5,lg:10}}>
+            <Flex gap={{base:5,md:5,lg:10}}
+             
+            >
 
        
         

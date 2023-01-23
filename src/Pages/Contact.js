@@ -1,7 +1,21 @@
 import { Box, Container, Flex, Heading, Img, Text } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 import React from "react";
 
 function Contact() {
+  const slideUp = {
+    hidden: { opacity: 0, y: 100 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 1,
+        ease: "easeOut",
+        when: "beforeChildren",
+        staggerChildren: 0.5
+      }
+    }
+  }
   return (
     <Box m="100px 0  0" id="contact" pb={100}
     
@@ -12,7 +26,14 @@ function Contact() {
         Contact Me
       </Heading>
 
-      <Container m="100px auto 0" border='2px solid red'
+      <Container
+        as={motion.div}
+        variants={slideUp}
+        initial="hidden"
+        whileInView="visible"
+        
+      
+      m="100px auto 0" border='2px solid red'
     borderRadius={10} p={10}>
         <Text fontSize={{ base: 16, md: 18, lg: 20 }} fontFamily="cursive">
           <span>Email : </span> akashpanda1701@gmail.com

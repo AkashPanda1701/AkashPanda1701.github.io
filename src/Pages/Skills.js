@@ -1,4 +1,5 @@
 import { Box, Flex, Grid, Heading, Img, Text } from '@chakra-ui/react'
+import { motion } from 'framer-motion'
 import React from 'react'
 let skills=[
   {
@@ -53,13 +54,36 @@ let skills=[
 
 ]
 function Skills() {
+  const slideUp = {
+    hidden: { opacity: 0, y: 100 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 1,
+        ease: "easeOut",
+        when: "beforeChildren",
+        staggerChildren: 0.5
+      }
+    }
+  }
+
   return (
     <Box my='100'  id='skills'>
            <Heading textAlign={'center'} style={{color:'rgb(243, 14, 79)'}}>My Skills & Tools</Heading>
            <Grid templateColumns={{base:'repeat(2,1fr)',md:'repeat(3,1fr)',lg:'repeat(4,1fr)'}} gap={20} w={'80%'} m='100px auto' >
               {skills.map((skill,index)=>{
                 return(
-                  <Box key={index} className='skill' p={3} textAlign='center' >
+                  <Box key={index} 
+                  as={motion.div}
+                  variants={slideUp}
+                  initial="hidden" 
+        whileInView='visible'
+        whileHover={{ scale: 1.2 }}
+        transition={{ type: "spring", stiffness: 400, damping: 10 }}
+
+                 
+                  className='skill' p={3} textAlign='center' >
                     
                     <Flex 
                     direction={{base:'column',xl:'row'}}
