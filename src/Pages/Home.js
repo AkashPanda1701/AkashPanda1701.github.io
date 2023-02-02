@@ -7,6 +7,7 @@ import Github from '../Components/Github';
 import Skills from './Skills';
 import Contact from './Contact';
 import { motion } from 'framer-motion';
+import Navbar from '../Components/Navbar';
 
 
 function Home() {
@@ -50,12 +51,17 @@ function Home() {
   
 
   return (<>
+  <Box
+  border={'1px solid #000'}
+  bgImage={'url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80)'} bgSize={'cover'} bgRepeat={'no-repeat'} bgPosition={'center'}  w={'100%'}  >
+
+    <Navbar/>
     <Grid
       as={motion.div}
       variants={slideDown}
       initial="hidden" 
 whileInView='visible'
-    w={{base:'100%',md:'80%'}} id='profile' templateColumns={{md:'1fr',lg:'1fr 1fr'}} m='85px auto 300px' pt={100}>
+    w={{base:'100%',md:'80%'}} id='profile' templateColumns={{md:'1fr',lg:'1fr 1fr'}} m='0px auto 120px' pt={100}>
       <Box p={10} minW={{md:'100%',lg:'500px'}} >
       <Text fontWeight={500} fontSize={{base:'30px',md:'35px',lg:'40px'}} >Hi , I'm <span style={{color:'rgb(243, 14, 79)'}}>Akash Kumar Panda </span></Text>
       <Text fontWeight={500} fontSize={{base:'25px',md:'35px',lg:'40px'}} >a <span style={{color:'rgb(243, 14, 79)'}} id='typer'></span></Text>
@@ -73,23 +79,11 @@ whileInView='visible'
  
       </Box>
       <Flex justifyContent={'center'} alignItems='center' >
-      <Box className="frame" ml={{base:'-30px',md:0}}>
-    <figure>
-      <Box className="image-1"></Box>
-      <Box className="image-2"></Box>
-      <Box className="image-2"></Box>
-      <Box className="image-2"></Box>
-      <Box className="image-2"></Box>
-      <Box className="image-2"></Box>
-      <Box className="image-2"></Box>
-      <Box className="image-2"></Box>
-      <Box className="image-2"></Box>
-      <Box className="image-2"></Box>
-    </figure>
-   
-  </Box>
+       <Img src='https://i.ibb.co/7rYM40k/image.png' w={{base:'300px',md:'380px',lg:'420px'}} h={{base:'340px',md:'400px',lg:'450px'}} shadow='xl' rounded={'2xl'} />
       </Flex>
     </Grid>
+      </Box>
+      <Navbar clsName='navbar'/>
     <About />
     <Project/>
      <Skills/>
