@@ -51,16 +51,17 @@ function Home() {
   
 
   return (<>
+    <Navbar/>
   <Box
   border={'1px solid #000'}
-  bgImage={'url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80)'} bgSize={'cover'} bgRepeat={'no-repeat'} bgPosition={'center'}  w={'100%'}  >
+  pt={{base:14,lg:20}}
+  bgImage={'url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80)'} bgSize={'cover'} bgRepeat={'no-repeat'} bgPosition={'center'}  w={'100%'}   >
 
-    <Navbar/>
     <Grid
       as={motion.div}
       variants={slideDown}
       initial="hidden" 
-whileInView='visible'
+      whileInView='visible'
     w={{base:'100%',md:'80%'}} id='profile' templateColumns={{md:'1fr',lg:'1fr 1fr'}} m='0px auto 120px' pt={100}>
       <Box p={10} minW={{md:'100%',lg:'500px'}} >
       <Text fontWeight={500} fontSize={{base:'30px',md:'35px',lg:'40px'}} >Hi , I'm <span style={{color:'rgb(243, 14, 79)'}}>Akash Kumar Panda </span></Text>
@@ -83,7 +84,6 @@ whileInView='visible'
       </Flex>
     </Grid>
       </Box>
-      <Navbar clsName='navbar'/>
     <About />
     <Project/>
      <Skills/>

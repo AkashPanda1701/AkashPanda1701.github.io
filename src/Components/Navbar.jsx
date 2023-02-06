@@ -5,13 +5,14 @@ import {Link} from 'react-scroll'
 import { motion } from "framer-motion";
 
 
-function Navbar({clsName}) {
-  console.log('clsName: ', clsName);
+function Navbar() {
+
+
   
   return (
       <Flex gap={4}
       bg='blackAlpha.100'
-      className={clsName}
+      className='navbar'
       px={{base:4,md:10}} alignItems='center'  >
          <Link
             activeClass="active"
